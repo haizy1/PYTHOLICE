@@ -3,7 +3,7 @@
 ## Overview
 Pytholice is WEB application for the detection of fugitives, mainly programmed in python, which aims to use facial recognition, motion detection, and real-time location to facilitate the search for fugitives by the police forces.
 <p align="center">
-  <img width="375" height="258" src="logo.png">
+  <img width="375" height="258" src="images/logo.png">
 </p>
 
 
@@ -24,16 +24,16 @@ This Python-based application leverages **facial recognition**, **motion detecti
 ## User Interface
 **Home Page** :
 
-![home page](home_page.jpg)
+![home page](images/home_page.jpg)
 
 
 **Login** : 
 
 
-![login](login.jpg)
+![login](images/login.jpg)
 
 
-![admin page](admin.jpg)
+![admin page](images/admin.jpg)
 
 The admin page is designed for users with special privileges, such as administrators or website managers, to access authentication information and manage user accounts.<br>
 
@@ -41,28 +41,28 @@ The admin page is designed for users with special privileges, such as administra
 
 The homepage after a Successful login opens with a captivating interface highlighting camera fields. At the center of the page, a frame is displayed, providing a live view through the website's built-in camera.
 
-![the page of cameras](camera.jpg)
+![the page of cameras](images/camera.jpg)
 
 **Criminels Page** :<br>
 
-![liste for criminels](liste_criminels.jpg)
+![liste for criminels](images/liste_criminels.jpg)
 
 **page d’ajout et de suppression des criminels** :<br>
 
 The criminal database search page allows users to search for wanted or already detected criminals. At the center of the page, a search field is displayed, prompting users to enter the name of the criminal.<br>
 
-![search for criminles](recherche.jpg)
+![search for criminles](images/recherche.jpg)
 
 **Form for adding a new criminal** :<br>
 
 The add and delete criminals page enables users to input new criminal data and remove existing entries. It features a user-friendly form for adding detailed criminal information, including photos, names, addresses, dates of birth, and national identification numbers.<br>
 
-![the form of add and delete](formulaire.jpg)
+![the form of add and delete](images/formulaire.jpg)
 
 **Alertes Page** :
 The alert page is designed to notify users of any detection situations. It is crafted to immediately capture users' attention upon opening and can be highlighted by an alert message.<br>
 
-![alertes page](alertes.jpg)
+![alertes page](images/alertes.jpg)
 
 
 **PYTHOLICE** aims to bridge the gap between traditional law enforcement methods and modern technological advancements, ultimately enhancing the effectiveness and efficiency of investigations and law enforcement operations.
