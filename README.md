@@ -2,7 +2,7 @@
 ## Overview
 Facial recognition technology has become increasingly prevalent in biometric applications, particularly in authentication, access control, and surveillance systems. With the rise of sophisticated methods to bypass traditional security measures like passwords and keys, the need for more robust and secure authentication methods has become paramount. In response, researchers across various fields have turned to biometrics, which offers unparalleled security and effectiveness.
 <p align="center">
-  <img width="475" height="358" src="last.png">
+  <img width="375" height="258" src="last.png">
 </p>
 
 
