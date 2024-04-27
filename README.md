@@ -15,11 +15,18 @@ This Python-based application leverages **facial recognition**, **motion detecti
 
 ## Features
 
-**Facial Recognition** : Identifying fugitives and missing persons from surveillance footage.
-**Real-time Tracking** : Tracking the movement of identified individuals in real-time.
-**Motion Detection** : Detecting and analyzing movements to enhance surveillance capabilities.
-**Efficiency Enhancement** : Improving the efficiency of law enforcement operations through automation and advanced technology.
+- **Facial Recognition** : Identifying fugitives and missing persons from surveillance footage.
+- **Real-time Tracking** : Tracking the movement of identified individuals in real-time.
+- **Motion Detection** : Detecting and analyzing movements to enhance surveillance capabilities.
+- **Efficiency Enhancement** : Improving the efficiency of law enforcement operations through automation and advanced technology.
 
 ## User Interface
 **Home Page** : 
-
+![home page](home_page.jpg)
+**Login** : 
+![login](login.jpg)
+![admin page](admin.jpg)
+The admin page is designed for users with special privileges, such as administrators or website managers, to access authentication information and manage user accounts.
+**Cameras Page** :
+The homepage after a Successful login opens with a captivating interface highlighting camera fields. At the center of the page, a frame is displayed, providing a live view through the website's built-in camera.
+![the page of cameras](camera.jpg)
