@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Alertes</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+        }
+        nav {
+            background-color: #333;
+            color: #fff;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+        }
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+        nav ul li {
+            margin: 0 10px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        nav ul li a:hover {
+            color: #ccc;
+        }
+        section {
+            width: 80%;
+            margin: 50px auto;
+            text-align: center;
+        }
+        h1 {
+            margin-top: 0;
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #333;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 4px;
+            transition: background-color 0.3s;
+            cursor: pointer;
+        }
+        .button:hover {
+            background-color: #555;
+        }  
+        .form-container {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 4px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            width: 300px;
+        }
+        .form-container label {
+            display: block;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+        .form-container input[type="text"],
+        .form-container input[type="date"] {
+            width: 100%;
+            padding: 8px;
+            border-radius: 4px;
+            border: 1px solid #ccc;
+            margin-bottom: 10px;
+        }
+        .form-container .button-container {
+            text-align: right;
+            margin-top: 20px;
+        }
+        .section-divider {
+            text-align: center;
+            margin: 50px 0;
+        }
+
+        .section-divider h2 {
+            margin-top: 0;
+        }
+        .search-bar {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .search-bar input[type="text"] {
+            padding: 8px;
+            border-radius: 4px;
+            border: 1px solid #ccc;
+            width: 300px; /* Adjust the width as needed */
+        }
+
+        .search-bar button {
+            padding: 8px 20px;
+            background-color: #333;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .search-bar button:hover {
+            background-color: #555;
+        }
+    </style>
+    <script>
+        function showForm() {
+            var formContainer = document.getElementById("formContainer");
+            formContainer.style.display = "block";
+        }
+
+        function hideForm() {
+            var formContainer = document.getElementById("formContainer");
+            formContainer.style.display = "none";
+        }
+        function searchByName() {
+            var searchInput = document.getElementById("searchInput").value;
+            // Code to perform search by full name goes here
+            console.log("Searching by name: " + searchInput);
+        }
+    </script>
+</head>
+<body>
+    <nav>
+        <div>
+            <h1><a href="{% url 'home' %}">Pytholice</a></h1>
+        </div>
+        <ul>
+            <li><a href="{% url 'criminels' %}">Criminels</a></li>
+            <li><a href="/basededonnées">Base de données</a></li>
+            <li><a href="{% url 'alertes' %}">Alertes</a></li>
+            <li><a href="{% url 'logout' %}">logout</a></li>
+        </ul>
+    </nav>
+    <section>
+        <h1>Ajouter un nouveau criminel :</h1>
+        <p>
+            <a href="javascript:void(0);" class="button" onclick="showForm()">Ajouter</a>
+        </p>
+        <div id="formContainer" class="form-container">
+            <!-- Add your form content here -->
+            <h2>Formulaire d'ajout</h2>
+            <form>
+                <label for="image">Image:</label>
+                <input type="file" id="image" name="image">
+    
+                <label for="nom">Nom:</label>
+                <input type="text" id="nom" name="nom">
+    
+                <label for="prenom">Prénom:</label>
+                <input type="text" id="prenom" name="prenom">
+    
+                <label for="dateNaissance">Date de naissance:</label>
+                <input type="date" id="dateNaissance" name="dateNaissance">
+    
+                <label for="adresse">Adresse:</label>
+                <input type="text" id="adresse" name="adresse">
+    
+                <label for="numCarte">Numéro de carte nationale:</label>
+                <input type="text" id="numCarte" name="numCarte">
+    
+                <div class="button-container">
+                    <button type="submit" class="button">Ajouter</button>
+                    <button type="button" class="button" onclick="hideForm()">Annuler</button>
+                </div>
+            </form>
+        </div>
+        <div class="section-divider">
+            <h2>Supprimer un criminel :</h2>
+        </div>
+        <div class="search-bar">
+            <input type="text" id="searchInput" placeholder="saisissez le nom ">
+            <button type="button" onclick="searchByName()">Rechercher</button>
+        </div>
+    </section>
+</body>
+</html>
