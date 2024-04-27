@@ -3,7 +3,7 @@
 ## Overview
 Pytholice is WEB application for the detection of fugitives, mainly programmed in python, which aims to use facial recognition, motion detection, and real-time location to facilitate the search for fugitives by the police forces.
 <p align="center">
-  <img width="375" height="258" src="last.png">
+  <img width="375" height="258" src="logo.png">
 </p>
 
 
