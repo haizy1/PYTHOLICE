@@ -7,6 +7,8 @@ WEB application forthe detection off ugitives, mainly programmed in python, whic
 
 
 ## Introduction 
+
+
 Facial recognition technology has become increasingly prevalent in biometric applications, particularly in authentication, access control, and surveillance systems. With the rise of sophisticated methods to bypass traditional security measures like passwords and keys, the need for more robust and secure authentication methods has become paramount. In response, researchers across various fields have turned to biometrics, which offers unparalleled security and effectiveness.
 
 The project addresses the challenges faced by law enforcement agencies in traditional methods, such as slow and bureaucratic processes, difficulties in identifying criminals, and the management of large volumes of fugitives and missing persons.
@@ -24,27 +26,43 @@ This Python-based application leverages **facial recognition**, **motion detecti
 **Home Page** :
 
 ![home page](home_page.jpg)
+
+
 **Login** : 
 
+
 ![login](login.jpg)
+
+
 ![admin page](admin.jpg)
-The admin page is designed for users with special privileges, such as administrators or website managers, to access authentication information and manage user accounts.<br/>
-**Cameras Page** :
+
+The admin page is designed for users with special privileges, such as administrators or website managers, to access authentication information and manage user accounts.<br>
+
+**Cameras Page** :<br>
+
 The homepage after a Successful login opens with a captivating interface highlighting camera fields. At the center of the page, a frame is displayed, providing a live view through the website's built-in camera.
+
 ![the page of cameras](camera.jpg)
-**Criminels Page** :
+
+**Criminels Page** :<br>
 
 ![liste for criminels](liste_criminels.jpg)
-**page d’ajout et de suppression des criminels** :
-The criminal database search page allows users to search for wanted or already detected criminals. At the center of the page, a search field is displayed, prompting users to enter the name of the criminal.<br/>
+
+**page d’ajout et de suppression des criminels** :<br>
+
+The criminal database search page allows users to search for wanted or already detected criminals. At the center of the page, a search field is displayed, prompting users to enter the name of the criminal.<br>
+
 ![search for criminles](recherche.jpg)
 
-**Form for adding a new criminal** :
-The add and delete criminals page enables users to input new criminal data and remove existing entries. It features a user-friendly form for adding detailed criminal information, including photos, names, addresses, dates of birth, and national identification numbers.<br/>
+**Form for adding a new criminal** :<br>
+
+The add and delete criminals page enables users to input new criminal data and remove existing entries. It features a user-friendly form for adding detailed criminal information, including photos, names, addresses, dates of birth, and national identification numbers.<br>
+
 ![the form of add and delete](formulaire.jpg)
 
 **Alertes Page** :
-The alert page is designed to notify users of any detection situations. It is crafted to immediately capture users' attention upon opening and can be highlighted by an alert message.<br/>
+The alert page is designed to notify users of any detection situations. It is crafted to immediately capture users' attention upon opening and can be highlighted by an alert message.<br>
+
 ![alertes page](alertes.jpg)
 
 
