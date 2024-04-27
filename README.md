@@ -1,7 +1,10 @@
 # PYTHOLICE  :  Facial Recognition and Real-time Tracking for Law Enforcement
 ## Overview
 Facial recognition technology has become increasingly prevalent in biometric applications, particularly in authentication, access control, and surveillance systems. With the rise of sophisticated methods to bypass traditional security measures like passwords and keys, the need for more robust and secure authentication methods has become paramount. In response, researchers across various fields have turned to biometrics, which offers unparalleled security and effectiveness.
-![Pytholice](last.png)
+<p align="center">
+  <img width="400" height="200" src="last.ong">
+</p>
+
 
 
 PYTHOLICE is a project developed as part of the "PYTHON AND ALGORITHMIC REALIZATION PROJECT" module, undertaken during the first year of the Engineering Cyber Defense and Embedded Telecommunications Systems (GCDSTE) cycle at the National School of Applied Sciences (ENSA-M) over a four-month period . 
