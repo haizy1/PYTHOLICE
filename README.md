@@ -66,4 +66,9 @@ The alert page is designed to notify users of any detection situations. It is cr
 
 
 **PYTHOLICE** aims to bridge the gap between traditional law enforcement methods and modern technological advancements, ultimately enhancing the effectiveness and efficiency of investigations and law enforcement operations.
+## Team Members
+
+- [asma](https://github.com/Asmaaeh) - Role or Contribution
+- [Member Name 2](link_to_profile_2) - Role or Contribution
+- [Member Name 3](link_to_profile_3) - Role or Contribution
 
