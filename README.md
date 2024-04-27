@@ -68,8 +68,11 @@ The alert page is designed to notify users of any detection situations. It is cr
 **PYTHOLICE** aims to bridge the gap between traditional law enforcement methods and modern technological advancements, ultimately enhancing the effectiveness and efficiency of investigations and law enforcement operations.
 ## Team Members
 
-<a href="https://github.com/Asmaaeh">
-  <img src="https://avatars.githubusercontent.com/u/130555330?v=4" />
-</a> 
+- [Asmaa Ehou](https://github.com/Asmaaeh) 
+- [Imane Chaik](https://github.com/rivenos) 
+- [Khadija Elmohtaj](https://github.com/khadija2023)
+- [Imane Benchakroun](https://github.com/imo-ne) 
+- [Hajar Ed-darrajy](https://github.com/haizy1) -Author
+- [Salma Chakiri](https://github.com/chakirisalma)
 
 
