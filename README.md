@@ -21,12 +21,32 @@ This Python-based application leverages **facial recognition**, **motion detecti
 - **Efficiency Enhancement** : Improving the efficiency of law enforcement operations through automation and advanced technology.
 
 ## User Interface
-**Home Page** : 
+**Home Page** :
+
 ![home page](home_page.jpg)
 **Login** : 
+
 ![login](login.jpg)
 ![admin page](admin.jpg)
-The admin page is designed for users with special privileges, such as administrators or website managers, to access authentication information and manage user accounts.
+The admin page is designed for users with special privileges, such as administrators or website managers, to access authentication information and manage user accounts.<br/>
 **Cameras Page** :
 The homepage after a Successful login opens with a captivating interface highlighting camera fields. At the center of the page, a frame is displayed, providing a live view through the website's built-in camera.
 ![the page of cameras](camera.jpg)
+**Criminels Page** :
+
+![liste for criminels](liste_criminels.jpg)
+**page d’ajout et de suppression des criminels** :
+The criminal database search page allows users to search for wanted or already detected criminals. At the center of the page, a search field is displayed, prompting users to enter the name of the criminal.<br/>
+![search for criminles](recherche.jpg)
+
+**Form for adding a new criminal** :
+The add and delete criminals page enables users to input new criminal data and remove existing entries. It features a user-friendly form for adding detailed criminal information, including photos, names, addresses, dates of birth, and national identification numbers.<br/>
+![the form of add and delete](formulaire.jpg)
+
+**Alertes Page** :
+The alert page is designed to notify users of any detection situations. It is crafted to immediately capture users' attention upon opening and can be highlighted by an alert message.<br/>
+![alertes page](alertes.jpg)
+
+
+**PYTHOLICE** aims to bridge the gap between traditional law enforcement methods and modern technological advancements, ultimately enhancing the effectiveness and efficiency of investigations and law enforcement operations.
+
