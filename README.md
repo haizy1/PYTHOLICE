@@ -1,6 +1,7 @@
-# PYTHOLICE  :  Facial Recognition and Real-time Tracking for Law Enforcement
+# PYTHOLICE  :  
+# Web application for criminal detection
 ## Overview
-WEB application forthe detection off ugitives, mainly programmed in python, which aims to use facial recognition, motion detection, and real-time location to facilitate the search forfugitives by the forces.
+Pytholice is WEB application for the detection of fugitives, mainly programmed in python, which aims to use facial recognition, motion detection, and real-time location to facilitate the search for fugitives by the police forces.
 <p align="center">
   <img width="375" height="258" src="last.png">
 </p>
@@ -8,8 +9,6 @@ WEB application forthe detection off ugitives, mainly programmed in python, whic
 
 ## Introduction 
 
-
-Facial recognition technology has become increasingly prevalent in biometric applications, particularly in authentication, access control, and surveillance systems. With the rise of sophisticated methods to bypass traditional security measures like passwords and keys, the need for more robust and secure authentication methods has become paramount. In response, researchers across various fields have turned to biometrics, which offers unparalleled security and effectiveness.
 
 The project addresses the challenges faced by law enforcement agencies in traditional methods, such as slow and bureaucratic processes, difficulties in identifying criminals, and the management of large volumes of fugitives and missing persons.
 
